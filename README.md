@@ -10,7 +10,7 @@ In short, this project mainly provides API endpoints for doing questionnaires.
 4. Trusted dotnet dev cert for SSL enabled ```dotnet dev-certs https --trust```
 
 # Setup
-1. Launch Powershell and cd to root/vts
+1. Launch Powershell and cd to root/Q.It
 2. execute ```dotnet ef database update```. The database **Qit** with **seed data** will be created. 
 3. execute ```dotnet run``` and the API server with Kestrel will start. The base urls are ```https://localhost:5001``` and ```http://localhost:5000```
 
